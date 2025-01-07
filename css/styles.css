@@ -29,6 +29,10 @@ img {
   letter-spacing: 0.03em;
   line-height: 1.17;
   text-transform: uppercase;
+  padding: 0;
+  margin-top: 24px;
+  margin-bottom: 24px;
+
 }
 
 .logo-second {
@@ -93,9 +97,11 @@ img {
 
 .title {
   background-color: #2e2f42;
+  height: 600px;
 }
 
 .title-one {
+  display: flex;
   color: #FFFFFF;
   font-size: 56px;
   font-weight: 700;
@@ -103,9 +109,14 @@ img {
   line-height: 1.07;
   background-color: #2E2F42;
   text-align: center;
+  padding-top: 188px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 496px;
 }
 
 .button {
+  display: flex;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   color: #FFFFFF;
@@ -114,6 +125,9 @@ img {
   letter-spacing: 0.04em;
   line-height: 1.5;
   cursor: pointer;
+  margin-top: 48px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .button:hover {
@@ -179,6 +193,39 @@ footer {
 
 .p-footer {
   color: #F4F4FD;
+}
+
+.container {
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+  }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #E7E9FC;
+
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+display: flex;
+align-items: center;
+margin-left: 76px;
+gap: 40px;
+}
+
+.menu-adress {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+  gap: 40px;
 }
 
 /* .header {
