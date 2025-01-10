@@ -24,6 +24,44 @@ img {
   display: block;
 }
 
+p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.15;
+  letter-spacing: 0.02em;
+}
+
+.container {
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #E7E9FC;
+
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.contact-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
 .header-and-footer-logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -42,8 +80,20 @@ img {
   color: #2E2F42;
 }
 
+.header-logo-second {
+  margin-right: 76px;
+}
+
 .header-and-footer-logo .footer-logo-second {
   color: #F4F4FD;
+}
+
+.footer-logo-second {
+  margin-bottom: 16px;
+}
+
+.nav-list {
+  margin: 24px 100px;
 }
 
 .nav-link {
@@ -98,8 +148,9 @@ img {
 
 .btn {
   display: flex;
-  font-family: "Roboto", sans-serif;
+  font-family:"Roboto", sans-serif;
   font-size: 16px;
+  border-radius: 4px;
   color: #FFFFFF;
   font-weight: 500;
   background-color: #4D5AE5;
@@ -109,6 +160,7 @@ img {
   margin-top: 48px;
   margin-left: auto;
   margin-right: auto;
+  padding: 16px 32px 16px 32px;
 }
 
 .btn:hover {
@@ -124,6 +176,9 @@ img {
 }
 
 .title-two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-weight: 700;
   font-size: 36px;
   color: #2E2F42;
@@ -131,24 +186,48 @@ img {
   line-height: 1.11;
   text-align: center;
   text-transform: capitalize;
+  padding-top: 120px;
+}
+
+
+.advantages-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 24px;
+}
+
+.advantages-item {
+  width: calc((100% - 72px) / 4);
 }
 
 .title-three {
+  display: flex;
   font-weight: 500;
   font-size: 20px;
   color: #2E2F42;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  flex-direction: column;
 }
 
-p {
-  margin: 0;
-  font-size: 16px;
-  line-height: 1.15;
-  letter-spacing: 0.02em;
+.advantages-paragraph {
+    display: flex;
+    width: 264px;
+    height: 72px;
+    margin-top: 8px;
+    font-size: 16px;
+    line-height: 1.15;
+    letter-spacing: 0.02em;
+    text-align: left;
+    justify-content: flex-start;
 }
 
-.properties {}
 
 .team {
   background-color: #F4F4FD;
@@ -162,69 +241,77 @@ p {
   text-transform: capitalize
 }
 
-.team-card {
-  background-color: #FFFFFF;
+.team-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-top: 72px;
+  margin-bottom: 0;
+  padding-bottom: 120px;
+}
+
+.team-item {
+  width: calc((100% - 72px) / 4);
+}
+
+.team-card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.team-item .title-three {
+  margin-top: 32px;
+}
+
+.team-item .team-paragraph {
+  margin-top: 8px;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-top: 72px;
+  margin-bottom: 0;
+  padding-bottom: 120px;
+}
+
+.portfolio-card-contetn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 32px 16px;
+  gap: 8px;
+  width: 360px;
+  height: 120px;
 }
 
 
-footer {
+.footer {
   background-color: #2E2F42;
+  height: 312px;
 }
+
+.footer-information {
+  width: 264px;
+  height: 120px;
+  padding-top: 100px;
+  padding-left: 15px;
+  }
+
+.footer-paragraph {
+  margin-top: 18px;
+}
+
+
 
 .footer-paragraph {
   color: #F4F4FD;
 }
 
-.container {
-  max-width: 1158px;
-  padding: 0 15px;
-  margin: 0 auto;
-  }
 
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border-bottom: 1px solid #E7E9FC;
 
-}
 
-.header-nav {
-  display: flex;
-  align-items: center;
-}
 
-.nav-list {
-display: flex;
-align-items: center;
-margin-left: 76px;
-gap: 40px;
-}
-
-.contact-list {
-  display: flex;
-  align-items: center;
-  margin-right: 15px;
-  gap: 40px;
-}
-
-/* .header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 20px;
-  background-color: #f8f8f8;
-  border-bottom: 1px solid #ddd;
-}
-
-.nav {
-  display: flex;
-  align-items: center;
-}
-
-.menu {
-  display: flex;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-} */
