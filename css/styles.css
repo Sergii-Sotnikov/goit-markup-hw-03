@@ -37,8 +37,8 @@ p {
   margin: 0 auto;
 }
 
-/* HEADER */
 
+/* HEADER */
 .page-header {
   border-bottom: 1px solid #E7E9FC;
 }
@@ -103,57 +103,27 @@ p {
 .contact-list {
   display: flex;
   gap: 40px;
-
 }
 
 
 
-
-/* 
-
-
-.contact-list {
-  display: flex;
-  align-items: center;
-  gap: 40px;
-}
-
-
-
-
-
-
-.footer-logo-second {
-  margin-bottom: 16px;
-}
-/* 
-.nav-list {
-  margin: 24px 100px;
-}
-
-
-
-
-*/
-
-.title {
+/* HERO */
+.hero {
   background-color: #2e2f42;
-  height: 600px;
+  padding: 188px 0;
 }
 
-.title-one {
-  display: flex;
+
+.hero-title {
   color: #FFFFFF;
   font-size: 56px;
   font-weight: 700;
   letter-spacing: 0.02em;
   line-height: 1.07;
   background-color: #2E2F42;
-  text-align: center;
-  padding-top: 188px;
+  max-width: 496px;
   margin-left: auto;
   margin-right: auto;
-  width: 496px;
 }
 
 .btn {
