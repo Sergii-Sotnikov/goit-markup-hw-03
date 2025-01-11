@@ -43,9 +43,13 @@ p {
   border-bottom: 1px solid #E7E9FC;
 }
 
-.page-header-div {
+.page-header .container {
   display: flex;
 }
+
+/* .page-header-div {
+  display: flex;
+} */
 
 .header-nav {
   display: flex;
