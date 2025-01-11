@@ -50,6 +50,7 @@ p {
 .header-nav {
   display: flex;
   align-items: center;
+  margin-right: 332px;
 }
 
 .header-and-footer-logo {
@@ -88,6 +89,8 @@ p {
 
 .contact-list {
   display: flex;
+  margin: 0;
+  padding: 24px 0;
   gap: 40px;
 }
 
