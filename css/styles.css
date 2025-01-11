@@ -61,6 +61,7 @@ p {
   line-height: 1.17;
   text-transform: uppercase;
   margin-right: 76px;
+  padding: 24px 0;
 }
 
 .header-and-footer-logo .header-logo-second {
@@ -79,11 +80,15 @@ p {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2E2F42;
-  padding: 26px 0;
 }
 
 .contact {
   font-style: normal;
+}
+
+.contact-list {
+  display: flex;
+  gap: 40px;
 }
 
 .contact-link {
@@ -91,7 +96,6 @@ p {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  padding: 24px 0;
 }
 
 .contact-link:hover,
@@ -101,10 +105,7 @@ p {
   color: #404bbf
 }
 
-.contact-list {
-  display: flex;
-  gap: 40px;
-}
+
 
 
 /* HERO */
