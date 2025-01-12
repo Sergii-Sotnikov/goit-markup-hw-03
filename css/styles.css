@@ -7,16 +7,18 @@ body {
   background-color: #FFFFFF;
 }
 
-ul, ol {
+ul {
   list-style-type: none;
   padding-left: 0;
+  margin: 0;
 }
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 
@@ -39,18 +41,18 @@ p {
 
 
 /* HEADER */
-.page-header {
+
+.header-page {
   border-bottom: 1px solid #E7E9FC;
 }
 
-.page-header .container {
+.header-page .container {
   display: flex;
 }
 
 .header-nav {
   display: flex;
   align-items: center;
-  margin-right: 332px;
 }
 
 .header-and-footer-logo {
@@ -61,21 +63,21 @@ p {
   letter-spacing: 0.03em;
   line-height: 1.17;
   text-transform: uppercase;
-  margin-right: 76px;
-  padding: 24px 0;
+  align-items: center;
+  padding-right: 76px;
 }
 
-.header-and-footer-logo .header-logo-second {
+.header-logo-second {
   color: #2E2F42;
+
 }
 
-.nav-list {
+.header-nav-list {
   display: flex;
   gap: 40px;
-  margin: 0;
 }
 
-.nav-link {
+.header-nav-item {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -83,18 +85,32 @@ p {
   color: #2E2F42;
 }
 
-.contact {
-  font-style: normal;
+.nav-link {
+  display: block;
+  padding: 24px 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2E2F42;
 }
 
-.contact-list {
+.header-address {
   display: flex;
-  margin: 0;
-  padding: 24px 0;
+  align-items: center;
+  margin-left: auto;
+}
+
+.header-adress-list {
+  display: flex;
+  align-items: center;
   gap: 40px;
 }
 
+.header-address-item {}
+
 .contact-link {
+  font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -108,10 +124,61 @@ p {
   color: #404bbf
 }
 
-
-
-
 /* HERO */
+
+
+.hero {
+  background-color: #2e2f42;
+  padding: 188px 0;
+}
+
+.hero-title {
+  color: #FFFFFF;
+  font-size: 56px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  line-height: 1.07;
+  background-color: #2E2F42;
+  max-width: 496px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn {
+  display: block;
+  font-size: 16px;
+  border: none;
+  color: #FFFFFF;
+  font-weight: 500;
+  background-color: #4D5AE5;
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+  margin-top: 48px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 16px 32px 16px 32px;
+  min-width: 169px;
+  height: 56px;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  background-color: #404BBF;
+}
+
+.btn:focus {
+  background-color: #404BBF;
+}
+
+.btn:active {
+  color: #FFFFFF;
+}
+
+
+
+
+
+/* HERO
 .hero {
   background-color: #2e2f42;
   padding: 188px 0;
@@ -304,7 +371,7 @@ p {
   color: #F4F4FD;
 }
 
-
+ */
 
 
 
