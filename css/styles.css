@@ -186,8 +186,9 @@ display: flex;
 flex-direction: column;
 }
 
-.advantages-title {
-visibility: hidden;
+.visually-hidden {
+position: absolute;
+  overflow: hidden;
 }
 
 .advantages-list {
