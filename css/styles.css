@@ -178,7 +178,7 @@ p {
 
 /*------------------ADVANTEGES ------------------*/
 .advantages {
-  padding: 120px;
+  padding: 120px 0;
 }
 
 .advantages .container {
@@ -309,7 +309,7 @@ text-align: center;
 
 /*------------------FOOTER------------------*/
 .footer {
-  padding: 100px;
+  padding: 100px 0;
   background-color: #2e2f42;
 }
 
