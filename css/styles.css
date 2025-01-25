@@ -157,18 +157,11 @@ p {
   height: 56px;
   border-radius: 4px;
   cursor: pointer;
+  transition: background-color 2500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn:hover {
   background-color: #404BBF;
-}
-
-.btn:focus {
-  background-color: #404BBF;
-}
-
-.btn:active {
-  color: #FFFFFF;
 }
 
 
